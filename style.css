@@ -1,0 +1,291 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  margin: 200px 0px 0px 0px;
+}
+
+body {
+  background: black;
+}
+
+first-page {
+  align: center;
+  text-align: center;
+}
+
+.secondpagebackground p {
+  font-size: 20px;
+  color: white;
+  margin: 30px auto;
+}
+
+.fourthpagebackground p {
+  font-size: 25px;
+  color: white;
+  margin: 0px auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 97.55%;
+  background-color: #000;
+  position: fixed;
+  height: 45px;
+  z-index: 2;
+}
+
+li {
+  float: right;
+  display: inline;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 20px;
+  padding: 11px;
+}
+
+li a {
+  width: 60px;
+  padding: 2px 20px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+li a:hover {
+  background-color: #00CCFF;
+  font-color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  border-color: #00CCFF;
+}
+
+td:hover {
+  background-color: #000;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1 {
+  font-family: lobster, Monospace;
+  color: white;
+  font-size: 100px;
+  text: center;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  color: white;
+  font-size: 100px;
+  text: center;
+  color: black;
+}
+
+h3 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Baloo Bhai', cursive;
+  text: center;
+}
+
+h4 {
+  font-family: 'Righteous', cursive;
+  color: black;
+  font-size: 50px;
+  text: center;
+  text-decoration: underline;
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.internal {
+  margin: 50px 0px -20px 80px;
+}
+
+.intro-divider {
+  width: 500px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid
+}
+
+.firstpagebackground {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  text-align: center;
+  background: url('http://res.cloudinary.com/dfvyityr2/image/upload/v1468838075/grey-brick-background_ejj1zz.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.secondpagebackground {
+  padding-top: 50px;
+  padding-bottom: 350px;
+  text-align: center;
+  background: url('http://images.nationalgeographic.com/wpf/media-live/photos/000/797/cache/hong-kong-architecture-night_79790_990x742.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.thirdpagebackground {
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: url('http://www.photos-public-domain.com/wp-content/uploads/2011/02/tan-colored-vertical-siding-texture.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.fourthpagebackground {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: url('http://i.huffpost.com/gadgets/slideshows/481350/slide_481350_6589994_free.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.btn {
+  text-align: center;
+  border-radius: 20px;
+  background: black;
+  border-color: #00CCFF;
+}
+
+.vertical-center {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* rest */
+.other-height {
+  height: 1250px
+}
+
+footer {
+  color: white;
+  background: black;
+}
+@import url('http://fonts.googleapis.com/css?family=Parisienne|Playball');
+body {
+  background: url('http://www.subtlepatterns.com/patterns/brickwall.png');
+  background-size: 10%;
+}
+.frame {
+  display: inline-block;
+  margin: 50px 20px auto;
+  border: 25px solid #222;
+  height: 370px;
+  width: 500px;
+  -webkit-box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .5);
+  box-shadow: 10px 3px 10px 4px rgba(0, 0, 0, .3);
+}
+.border {
+  background: white;
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: inset 10px 10px 10px 4px rgba(0, 0, 0, .4);
+  box-shadow: inset 3px 7px 2px 5px rgba(0, 0, 0, .4);
+}
+.image {
+  position: absolute;
+  height: 220px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 50px;
+  -webkit-box-shadow: inset 10px 10px 10px 4px rgba(0, 0, 0, .6);
+  box-shadow: inset 3px 7px 2px 5px rgba(0, 0, 0, .1);
+  border: 2px inset #c9c9c9;
+  z-index: 1;
+  opacity: 1.0;
+}
+img {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.tag {
+  position: absolute;
+  background: black;
+  height: 100%;
+  width: 100%;
+  color: white;
+  z-index: -1;
+}
+img:hover {
+  transition: opacity 1.2s ease;
+  opacity: 0.15;
+}
+.comp {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+h5 {
+  font-family: 'Righteous', cursive;
+  color: white;
+  font-size: 30px;
+  text: center;
+  margin-top: 10%;
+}
+h6 {
+  font-family: 'Baloo Bhai', cursive;
+  color: white;
+  font-size: 15px;
+  text: center;
+}
+.text {
+  margin-top: -40px;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+.frames {
+  margin: 0px 0px 40px 0px;
+}
+.bottom {
+  margin: 200px 0px 0px 00px;
+}
+.ltext {
+  margin-top: -80px;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+.lframe {
+  display: inline-block;
+  margin: 60px 30px auto;
+  border: 60px solid #222;
+  height: 740px;
+  width: 1000px;
+  -webkit-box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .5);
+  box-shadow: 10px 3px 10px 4px rgba(0, 0, 0, .3);
+}
+.lborder {
+  background: white;
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: inset 10px 10px 10px 4px rgba(0, 0, 0, .4);
+  box-shadow: inset 3px 7px 2px 5px rgba(0, 0, 0, .4);
+}
+.limage {
+  position: absolute;
+  height: 440px;
+  width: 700px;
+  margin-left: 100px;
+  margin-top: 100px;
+  -webkit-box-shadow: inset 10px 10px 10px 4px rgba(0, 0, 0, .6);
+  box-shadow: inset 3px 7px 2px 5px rgba(0, 0, 0, .1);
+  border: 2px inset #c9c9c9;
+  z-index: 0;
+}
