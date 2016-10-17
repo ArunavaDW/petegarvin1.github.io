@@ -91,6 +91,12 @@ h2 {
   color:rgba(139,69,19, 0.7);
 }
 
+@media screen and (min-width: 900px) {
+  h2 {
+  font-size:80px;
+    }
+}
+
 h3 {
   color: white;
   font-size: 50px;
@@ -257,6 +263,7 @@ h6 {
   margin: 200px 0px 0px 00px;
 }
 
+@media screen and (min-width: 900px) {
 .ltext {
   margin-top: -80px;
   font-family: 'Baloo Bhai', cursive;
@@ -290,7 +297,8 @@ h6 {
   border: 2px inset #c9c9c9;
   z-index: 0;
 }
-@media (max-width: 500px) {
+}
+
 .lframe {
   display: inline-block;
   margin: 50px 20px auto;
